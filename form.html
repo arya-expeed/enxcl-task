@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+</head>
+<body>
+    <h1>Application form</h1>
+    <form method="post" action="form1.html">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label><br><br>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="20">
+        </textarea><br><br>
+
+        <label for="phno">Phno:</label>
+        <input type="text" id="phno" name="phno"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="qualification">Qualification:</label>
+        <select name="qualification" id="qualification">
+            <option value="1">MCA</option>
+            <option value="2">MSC</option>
+            <option value="3">MCOM</option>
+            <option value="4">BCA</option>
+        </select><br><br>
+
+        <label for="district">District:</label>
+        <select name="district" id="district">
+            <option value="1">Alappuzha</option>
+            <option value="2">Kottayam</option>
+            <option value="3">Ernakulam</option>
+            <option value="4">Palakkad</option>
+        </select><br><br>
+       
+        <input type="checkbox" id="eligibility" name="eligibility" value="eligibility">
+
+        <label for="eligibility">I hereby declare that all the above information is correct and accurate</label><br><br>
+        <input type="button" value="submit">
+    </form>
+</body>
+</html>

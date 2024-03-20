@@ -1,0 +1,14 @@
+.error {
+    color: red;
+}
+.bg{
+    background-image: url("/enxcl/img/formbg.jpeg");
+    
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.btn-submit{
+    text-align:center;
+}
